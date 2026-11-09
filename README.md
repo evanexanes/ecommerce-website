@@ -17,7 +17,21 @@
 
 </div>
 
+## What this shows
+- A full WooCommerce catalogue of 30 products with 44 variations, with Elementor theme-builder templates on the Hello Elementor theme.
+- Brand and product names are sample data, and nothing is for sale.
+- Cart, checkout and accounts need a WordPress server, so they do not run in this static copy.
+
+Lighthouse results for the live demo with mobile settings:
+
+| Performance | Accessibility | Best practices | Largest contentful paint |
+|---|---|---|---|
+| 55 | 83 | 96 | 4.0 s |
+
+Lighthouse 12.8.2, mobile settings with simulated throttling, run from a laptop on 10 November 2026. The SEO score is left out because these demo pages carry a `noindex` tag.
+
 ## Contents
+- [What this shows](#what-this-shows)
 - [About](#about)
 - [Stack](#stack)
 - [What this repository is](#what-this-repository-is)
@@ -49,4 +63,4 @@ GitHub Pages cannot run PHP, so anything that needs the WordPress server does no
 WordPress, the theme and the plugins are each released under the GNU General Public License, version 2 or later or version 3, as each one states. This repository as a whole is released under the [GNU General Public License, version 3](LICENSE), which all of them allow. The sample text and pictures are placeholder content for a practice build.
 
 ## Author
-**Evan Prens P. Exanes** · [GitHub](https://github.com/evanexanes) · [Portfolio](https://evanexanes.github.io/)
+**Evan Prens P. Exanes** · [GitHub](https://github.com/evanexanes) · [Portfolio](https://evanexanes.github.io/) · [Contact](https://evanexanes.github.io/07-contact.html)
