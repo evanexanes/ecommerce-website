@@ -26,9 +26,9 @@ Lighthouse results for the live demo with mobile settings:
 
 | Performance | Accessibility | Best practices | Largest contentful paint |
 |---|---|---|---|
-| 55 | 83 | 96 | 4.0 s |
+| 72 | 83 | 96 | 2.7 s |
 
-Lighthouse 12.8.2, mobile settings with simulated throttling, run from a laptop on 10 November 2026. The SEO score is left out because these demo pages carry a `noindex` tag.
+Lighthouse 12.8.2, mobile settings with simulated throttling, median of three runs from a laptop on 10 November 2026. The performance score varied from 69 to 84 between runs. The home page transfers about 1 MB because the uploaded images are WebP. The SEO score is left out because these demo pages carry a `noindex` tag.
 
 ## Contents
 - [What this shows](#what-this-shows)
